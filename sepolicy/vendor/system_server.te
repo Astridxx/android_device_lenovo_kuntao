@@ -6,6 +6,9 @@ allow system_server vfsspi_device:fifo_file rw_file_perms;
 # Vibrator
 allow system_server sysfs_vibrator:file read;
 
+# Smart charger
+allow system_server sysfs_usb_supply:file rw_file_perms;
+
 get_prop(system_server, exported_camera_prop);
 get_prop(system_server, userspace_reboot_config_prop);
 get_prop(system_server, userspace_reboot_exported_prop);
