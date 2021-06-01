@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
     libmm-qcamera \
-    GCam
+    Snap
 
 # Display
 PRODUCT_PACKAGES += \
