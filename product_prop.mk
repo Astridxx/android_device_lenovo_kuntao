@@ -16,3 +16,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Gboard configuration
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.kb_pad_port_b=1
+
+# Disable blur by default
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.sf.disable_blurs=1
