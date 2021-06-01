@@ -106,6 +106,9 @@ on post-fs-data
     mkdir /data/vendor/bluetooth 0770 bluetooth bluetooth
     mkdir /data/vendor/ramdump/bluetooth 0770 bluetooth bluetooth
 
+    # Create directory used for dump collection
+    mkdir /data/vendor/ssrdump 0770 root system
+
     # Create directory for tftp
     chown system system /data/vendor/tombstones
     mkdir /data/vendor/tombstones/rfs 0771 system system
