@@ -11,32 +11,13 @@
 | Shipped Android Version | Android 6.0.1 (Marshmallow)                   |
 | Storage                 | 32 GB                                 	  |
 | MicroSD                 | Up to 128GB                           	  |
-| Battery                 | 5100 mAh                              	  |
+| Battery                 | 5100 mAh (non-removable)                       |
 | Dimensions              | 153 x 76 x 8.3 mm                             |
 | Display                 | 1080 x 1920 pixels                            |
-| Camera                  | 13 MP                                         |
+| Rear Camera            | 13 MP                                         |
+| Front Camera            | 5 MP                                         |
 | Release Date            | November, 2016                                |
 
 ## Device Picture 
 
-![Lenovo P2](http://cdn2.gsmarena.com/vv/pics/lenovo/lenovo-p2-1.jpg "Lenovo P2")
-
-## Copyright
-
-```
-#
-# Copyright (C) 2017-2020 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
-```
+![Lenovo P2](https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-p2-2.jpg "Lenovo P2")
