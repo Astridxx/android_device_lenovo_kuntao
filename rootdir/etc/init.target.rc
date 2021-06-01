@@ -43,7 +43,7 @@ on fs
     swapon_all /vendor/etc/fstab.qcom
 
     # GnssConfiguration doesn't actually look at gps.conf, just the debug file
-    mount none /system/etc/gps.conf /system/etc/gps_debug.conf bind
+    mount none /vendor/etc/gps.conf /system/etc/gps_debug.conf bind
 
     # Set permissions for persist partition
     chown root system /mnt/vendor/persist
