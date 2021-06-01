@@ -579,6 +579,10 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">false</bool>
+    <bool name="config_pocketUseLightSensor">false</bool>
+
     <!-- Whether to post reset runnable for all clients. Needed for some older
          vendor fingerprint HAL implementations. -->
     <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
