@@ -570,6 +570,9 @@
     <!-- Whether to allow process with media UID to access CameraServiceProxy -->
     <bool name="config_allowMediaUidForCameraServiceProxy">true</bool>
 
+    <!-- Smart charging -->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string> 
+
     <!-- Default values for LiveDisplay -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
 
