@@ -34,10 +34,10 @@ source "${HELPER}"
 function blob_fixup() {
     case "${1}" in
         system_ext/lib64/libdpmframework.so)
-           "${PATCHELF}" --add-needed libdpmframework_shim.so "${2}"
+           "${PATCHELF}" --add-needed "libdpmframework_shim.so" "${2}"
             ;;
         system_ext/lib64/lib-imsvideocodec.so)
-           "${PATCHELF}" --add-needed libvt_shim.so "${2}"
+           "${PATCHELF}" --add-needed "libvt_shim.so" "${2}"
             ;;
         system_ext/etc/init/dpmd.rc)
             sed -i "s/\/system\/product\/bin\//\/system\/system_ext\/bin\//g" "${2}"
