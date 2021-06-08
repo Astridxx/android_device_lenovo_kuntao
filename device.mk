@@ -130,7 +130,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
     vendor.qti.hardware.camera.device@1.0 \
     camera.msm8953 \
-    libmm-qcamera \
     Snap
 
 # Display
@@ -350,12 +349,6 @@ PRODUCT_PACKAGES += \
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
-
-# RCS
-PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager \
-    PresencePolling \
-    RcsService
 
 # RIL
 PRODUCT_PACKAGES += \
