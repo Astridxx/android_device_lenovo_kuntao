@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_kuntao.mk
+    $(LOCAL_DIR)/xtended_kuntao.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_kuntao-user \
-    havoc_kuntao-userdebug \
-    havoc_kuntao-eng
+    xtended_kuntao-user \
+    xtended_kuntao-userdebug \
+    xtended_kuntao-eng
