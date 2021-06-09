@@ -77,16 +77,6 @@
                  android:summary="@string/kcal_summary"
                  android:title="@string/kcal_title"
                  android:icon="@drawable/ic_kcal" />
-        <Preference
-            android:key="device_doze"
-            android:persistent="false"
-            android:summary="@string/ambient_display_title_summary"
-            android:icon="@drawable/ic_doze"
-            android:title="@string/ambient_display_title" >
-            <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="com.custom.ambient.display"
-                 android:targetClass="com.custom.ambient.display.DozeSettings" />
-        </Preference>
     </PreferenceCategory>
 
     <PreferenceCategory
