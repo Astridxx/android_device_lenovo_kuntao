@@ -602,6 +602,9 @@
     <integer name="config_sysCPUTempMultiplier">10</integer>
     <integer name="config_sysBatteryTempMultiplier">10</integer>
 
+    <!-- If true, the display will be shifted around in ambient mode. -->
+    <bool name="config_enableBurnInProtection">false</bool>
+
     <!-- Whether to post reset runnable for all clients. Needed for some older
          vendor fingerprint HAL implementations. -->
     <bool name="config_fingerprintPostResetRunnableForAllClients">true</bool>
