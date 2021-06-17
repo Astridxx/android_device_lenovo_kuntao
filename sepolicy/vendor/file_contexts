@@ -25,11 +25,6 @@
 # NFC
 /dev/bcm2079x-i2c                                                          u:object_r:nfc_device:s0
 
-# Poweroff alaram
-/(mnt/vendor)/persist/alarm/data                                     u:object_r:persist_alarm_file:s0
-/(mnt/vendor)/persist/alarm/powerOffAlarmSet                                     u:object_r:persist_alarm_file:s0
-/(mnt/vendor)/persist/alarm/timezone                                    u:object_r:persist_alarm_file:s0
-
 # Root files
 /firmware(/.*)?                                                            u:object_r:firmware_file:s0
 /persist(/.*)?                                                             u:object_r:mnt_vendor_file:s0
