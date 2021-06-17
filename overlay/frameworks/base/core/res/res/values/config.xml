@@ -569,7 +569,9 @@
     <bool name="config_multiColorBatteryLed">true</bool>
 
     <!-- Smart charging -->
-    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string> 
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">0</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">1</string>
 
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">false</bool>
@@ -579,9 +581,6 @@
 
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
-
-    <!-- Whether to allow process with media UID to access CameraServiceProxy -->
-    <bool name="config_allowMediaUidForCameraServiceProxy">true</bool>
 
     <!-- Whether device can force navbar disabling -->
     <bool name="config_canForceDisableNavigationBar">true</bool>
